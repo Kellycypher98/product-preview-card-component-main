@@ -17,7 +17,6 @@ body {
     background-color: hsl(0, 0%, 100%);
     width:35rem;
     height: 25rem;
-    
     border-radius: 10px;
 }
 img{
@@ -85,13 +84,19 @@ svg{
     padding-right: 1rem;
 }
 @media only screen and (max-width:600px) {
+    body {
+            background-color: hsl(30, 38%, 92%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
     .container {
             display: flex;
             flex-direction: column;
             background-color: hsl(0, 0%, 100%);
             width: 80%;
-            height: 720px;
-           
+            height: 44rem;
             border-radius: 10px;
             
         }
